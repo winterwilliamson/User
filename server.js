@@ -33,4 +33,4 @@ app.use('/users', require('./routes/user.js'));
 
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, console.log(`Server running on  ${PORT}`));
+app.listen(PORT, console.log(`server running on  ${PORT}`));
